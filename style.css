@@ -1,0 +1,163 @@
+body{
+    font-family:'Franklin Gothic';
+    background-image: linear-gradient(to right, #51456b, #273456);
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    font-size: 12px;
+}
+
+.mainblock{
+    display: flex;
+    /* text-align: center; */
+}
+
+.left_menu{
+    width: 20%;
+    margin-left: 20px;
+    /* background-color: aliceblue; */
+}
+
+.companyname{
+    display: flex;
+    /* align-items: center; */
+    font-size: 25px;
+}
+
+.companyname > h1{
+    color: white;
+    font-family: 'Franklin Gothic Medium';
+}
+
+.left_menu > .companyname > img{
+    margin: 34px 10px 0px 0px;
+    /* margin: 20px; */
+    width: auto;
+    height: 40px;
+}
+
+.left_menu > ol{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.left_menu > ol > li > img{
+    width: auto;
+    height: 20px;
+    padding: 15px 10px 0px 0px;
+}
+
+.line{
+    width: 200px;
+    height: 1px;
+    background-color: white;
+    opacity: 0.2;
+}
+
+.insights ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.insights ol > li > img{
+    width: auto;
+    height: 20px;
+    padding: 15px 12px 0px 0px;
+}
+
+.insights ol li{
+    display: flex;
+    align-items: flex-end;
+}
+
+
+.account_holder .row .column1 img{
+    width: auto;
+    height: 40px;
+    padding: 15px 12px 0px 0px;
+}
+
+.row{
+    display: flex;
+}
+
+/* ------------------- Mid Section -------------------*/
+
+.bluesecton{
+    /* background-image: linear-gradient(to right, #7d6dfb, #7363f9); */
+    background-color: #8475fa;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+
+.bluesecton:hover{
+    background-color: #444fb1;
+    /* background-image: linear-gradient(to left, #8475fa, #6959fa); */
+    /* border-bottom: solid; */
+    border-color: rgb(175, 210, 239);
+    box-shadow: black 15px 15px 15px;
+}
+
+.mid_section_row{
+    display: flex;
+    padding-left: 20px;
+}
+
+.circle_img_column2{
+    padding: 20px;
+}
+
+.go_setting{
+    margin-top: 10px;
+    padding: 15px 25px;
+    border-radius: 10px;
+    color: white;
+    background-color: #273456;
+    /* border: none; */
+    border-color: #273456;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.go_setting:hover{
+    background-color:#444fb1;
+    box-shadow: rgb(56, 73, 79) 3px 3px 7px;
+    /* border-bottom: solid; */
+    border-color: white;
+    font-size: 13px;
+}
+
+.circle_img_column2 img{
+    transition: 1s;
+    opacity: 0.8;
+}
+
+.circle_img_column2 img:hover{
+    transform:rotate(3deg);
+    opacity: 1;
+
+}
+
+.bottom_left_in_mid_section li{
+    font-size: 15px;
+    align-items: center;
+
+}
+
+.bottom_left_in_mid_section li img{
+    background-color: #8475fa;
+    border-radius: 12px;
+    margin: 10px;
+
+}
+
+
+/* ------------------- Right Section -------------------*/
+
+
+.right_menu{
+    width: 20%;
+}
+
