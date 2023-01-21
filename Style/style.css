@@ -153,6 +153,25 @@ body{
 
 }
 
+.row_one{
+    background-color: #8475fa;
+    border-radius: 10px;
+}
+
+.row_one ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.row_one ul li{
+    display: flex;
+}
+
+.row_one ul li img, section, p {
+    margin: 20px;
+}
+
 
 /* ------------------- Right Section -------------------*/
 
