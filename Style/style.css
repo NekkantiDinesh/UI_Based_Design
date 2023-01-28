@@ -9,18 +9,15 @@ body{
 
 .mainblock{
     display: flex;
-    /* text-align: center; */
 }
 
 .left_menu{
     width: 20%;
     margin-left: 20px;
-    /* background-color: aliceblue; */
 }
 
 .companyname{
     display: flex;
-    /* align-items: center; */
     font-size: 25px;
 }
 
@@ -31,7 +28,6 @@ body{
 
 .left_menu > .companyname > img{
     margin: 34px 10px 0px 0px;
-    /* margin: 20px; */
     width: auto;
     height: 40px;
 }
@@ -86,7 +82,6 @@ body{
 /* ------------------- Mid Section -------------------*/
 
 .bluesecton{
-    /* background-image: linear-gradient(to right, #7d6dfb, #7363f9); */
     background-color: #8475fa;
     border-radius: 15px;
     transition: 0.5s;
@@ -94,8 +89,6 @@ body{
 
 .bluesecton:hover{
     background-color: #444fb1;
-    /* background-image: linear-gradient(to left, #8475fa, #6959fa); */
-    /* border-bottom: solid; */
     border-color: rgb(175, 210, 239);
     box-shadow: black 15px 15px 15px;
 }
@@ -115,7 +108,6 @@ body{
     border-radius: 10px;
     color: white;
     background-color: #273456;
-    /* border: none; */
     border-color: #273456;
     cursor: pointer;
     transition: 0.3s;
@@ -124,7 +116,6 @@ body{
 .go_setting:hover{
     background-color:#444fb1;
     box-shadow: rgb(56, 73, 79) 3px 3px 7px;
-    /* border-bottom: solid; */
     border-color: white;
     font-size: 13px;
 }
@@ -140,22 +131,10 @@ body{
 
 }
 
-.bottom_left_in_mid_section li{
-    font-size: 15px;
-    align-items: center;
-
-}
-
-.bottom_left_in_mid_section li img{
-    background-color: #8475fa;
-    border-radius: 12px;
-    margin: 10px;
-
-}
-
-.row_one{
+.mid_bottom_left_box{
     background-color: #8475fa;
     border-radius: 10px;
+    margin-top: 40px;
 }
 
 .row_one ul{
@@ -166,17 +145,37 @@ body{
 
 .row_one ul li{
     display: flex;
+    align-items: center;
 }
 
 .row_one ul li img, section, p {
-    margin: 20px;
+    margin: 10px;
+}
+
+.main_circle{
+    background-color: rgb(248, 214, 246);
+    border-radius: 12px;
+    padding: 5px;
+}
+
+.orangle_circle{
+    background-color: rgb(242, 244, 130);
+    border-radius: 12px;
+}
+
+.spiral{
+    background-color: rgb(188, 246, 246);
+    border-radius: 12px;
+}
+
+.mid_bottom_right_box{
+    background-color: #8475fa;
+    border-radius: 10px;
+    margin-left: 20px;
+    width: 40%;
 }
 
 
 /* ------------------- Right Section -------------------*/
 
-
-.right_menu{
-    width: 20%;
-}
 
