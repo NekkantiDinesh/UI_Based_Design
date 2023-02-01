@@ -169,12 +169,21 @@ body{
 }
 
 .mid_bottom_right_box{
-    background-color: #8475fa;
+    background-color: #3782d8;
     border-radius: 10px;
     margin-left: 20px;
     width: 40%;
 }
 
+.mid_bottom_right_box .row_one{
+    background-color: #273456;
+    margin: 10px;
+    margin-top: 22px;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: rgb(0, 0, 0) 2px 2px 7px;
+}
 
 /* ------------------- Right Section -------------------*/
+
 
