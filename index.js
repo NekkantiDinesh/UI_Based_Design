@@ -3,6 +3,8 @@
 //     document.getElementById("bluee").style.backgroundColor="red"});
 
 
+
+
 // let n=6;
 // for (let i=0; i<n; i++){
 //     for(let j=0; j<i; j++){
@@ -488,11 +490,39 @@
 // }
 
 
+// ---------------- MAGIC EIGHT BALL (FORTUNE TELLER) -------------
 
+// let userName = "Dinesh";
+// userName ? console.log(`Hello ${userName}!`) : console.log("Hello!");
+// let userQuestion = "Lets Check Your Fortune 😁";
+// console.log(userQuestion);
+// let randomNumber = Math.floor(Math.random()*8);
+// console.log(`Numer is ${randomNumber}`);
+// let eightBall = randomNumber;
+// switch(eightBall) {
+//   case 0:
+//     console.log("It is certain")
+//     break;
+//   case 1:
+//     console.log("It is decidedly so")
+//     break;
+//   case 2:
+//     console.log("Reply hazy try again")
+//     break;
+//   case 3:
+//     console.log("Yes - definitely")
+//     break;
+//   case 4:
+//     console.log("Count on it")
+//     break;
+//   case 5:
+//     console.log("My sources say no")
+//     break;
+//   case 6:
+//     console.log("Concentrate and ask again")
+//     break;
+//   default:
+//      console.log("Signs point to yes")
+// }
 
-
-
-
-
-//---------------- GET MAX OF AN ARRAY -------------------
-
+// console.log("\n HINT! \n Keep trying until you are Satisfied 😅")
