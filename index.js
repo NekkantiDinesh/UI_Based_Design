@@ -492,7 +492,7 @@
 
 // ---------------- MAGIC EIGHT BALL (FORTUNE TELLER) -------------
 
-// let userName = "Dinesh";
+// let userName = prompt("Dinesh");
 // userName ? console.log(`Hello ${userName}!`) : console.log("Hello!");
 // let userQuestion = "Lets Check Your Fortune 😁";
 // console.log(userQuestion);
@@ -526,3 +526,21 @@
 // }
 
 // console.log("\n HINT! \n Keep trying until you are Satisfied 😅")
+
+
+
+
+// -------------PALENDROME NUMBER / STRING ----------------
+
+
+// let inputString = prompt(`enter the value`);
+// let arrString = inputString.split(""); 
+// let reverseString = arrString.reverse();
+// let joinedString = reverseString.join("");
+
+// if(inputString == joinedString){
+//     alert("is palendrome")
+// }
+// else{
+//     alert("is not a palendrome")
+// };
